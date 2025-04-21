@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+header{
+    text-align: center;
+    color:rgb(78, 60, 42);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('/Source/room 2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header figure img {
+    border-radius: 50%;
+    border: 5px solid #0000009a;
+    box-shadow: 0px 0px 10px ;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+   font-size: 1.2em;
+   opacity: 0.7;
+}
+
+.container{
+    background-color: rgb(20, 18, 14);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #af9f8ad2;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+h3{
+    font-size: 1.3em;
+    margin-top: 20px;
+    color:rgb(87, 68, 55)
+}
+
+h4{
+    font-size: 1em;
+    margin-top: 20px;
+    color:rgb(87, 68, 55)
+}
+
+section{
+    background-color: rgb(240, 214, 182);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(10, 39, 92, 0.774);
+}
+
+section hr{
+    border:0;
+    height: 2px;
+    background: rgb(150, 127, 98);
+    margin: 10px 0;
+}
+
+ul {
+    padding-left: 45px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icons a {
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #0077ff;
+  }
