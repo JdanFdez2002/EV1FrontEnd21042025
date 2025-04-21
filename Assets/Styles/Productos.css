@@ -8,7 +8,7 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #8e8e8e;
+  color: #00000033;
   transition: color .15s ease-in-out;
 }
 .site-header a:hover {
@@ -67,4 +67,11 @@
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+.fondo-imagen {
+  background-image: url('../Images/Stock/wp2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }

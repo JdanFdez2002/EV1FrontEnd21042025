@@ -58,3 +58,15 @@ body {
     font-size: 3.5rem;
   }
 }
+
+body {
+  background-image: url('../Images/Stock/wp4.jpg'); /* Ajusta la ruta */
+  background-size: 25%;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.cover-container {
+  max-width: 900px; 
+  background-color: rgb(33, 37, 41);
+}
